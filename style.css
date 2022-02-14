@@ -33,38 +33,39 @@ nav a{
     width: 600px;
     text-align: center;
     margin-left: 30%;
+    
    
 }
 
 /*iphoe section*/
-.iphone{
+.full-width-section{
     height: 650px;
-    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg");
-    background-size: cover;
+    width: 100%;
     background-repeat: no-repeat;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-position: center;
 }
-
-.iphone h2{
+.iphone{
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/iphone-13-pro/hero_iphone_13pro__dhnsegysa42u_medium_2x.jpg");
+    background-size: cover;
+    
+}
+.full-width-section h2{
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
-
-.iphone h3{
+.full-width-section h3{
     font-size: 24px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
-
 .main-link{
   margin-top: 30px;
 }
-
 .main-link a{
     margin-right: 20px;
     font-family: 'Roboto', sans-serif;
@@ -76,18 +77,22 @@ nav a{
 .main-link a:hover{
     text-decoration: underline;
 }
-.iphone-13{
+.full-width-section{
     width: 1068px;
     height: 698px;
     background-size: 1068px 698px;
     background-repeat: no-repeat;
     display: flex;
-    background-image: url('https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_mediumtall.jpg');
     flex-direction: column;
     text-align: center;
     
 }
+.iphone-13{
+    background-image: url('https://www.apple.com/v/home/aj/images/heroes/iphone-13/hero_iphone_13__f194u1rdooeq_mediumtall.jpg');
+    background-position: center;
+}
 .iphone-13 h2{
+    margin-top: 20px;
     font-size: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 600; 
@@ -100,25 +105,32 @@ nav a{
     color: #fec2eb;
     margin-top: 5px;
 }
-.valentine{
+.full-width-section{
    width: 3008px;
    height: 624px;
-   position: absolute;
+   align-items: center;
    display: flex;
-   flex-direction: column; 
-   text-align: center;
-   background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_mediumtall.jpg");
+   flex-direction: column;
+   background-repeat: no-repeat; 
    
 }
+.valentine{
+    text-align: center;
+    background-image: url("https://www.apple.com/v/home/aj/images/heroes/valentines-day-last-chance/hero_vday22__bt5gpd2vjafm_mediumtall.jpg");
+    background-position: center;
+}
 .valentine h2{
+    margin: 20px;
     color: #602d62;
     font-size: 48px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
+    
 }
 .valentine h3{
     color: #602d62;
     font-size: 24px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
 }
